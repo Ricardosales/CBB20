@@ -87,7 +87,7 @@ const Equipes = () => {
                     <WalletRow></WalletRow>
                     <Text style={styles.area}>Seja você também um voluntário!</Text>
                     <Button title="Abrir" color="#155239" onPress={() => {
-                        Linking.openURL('https://www.cbb2020.com.br/equipes-de-trabalho/')
+                        Linking.openURL('https://www.cbb2020.com.br/seja-um-voluntario/')
                     }}
                     />
                     <Text></Text>

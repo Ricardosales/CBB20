@@ -99,7 +99,7 @@ const CongressoInfantil = () => {
                     <Text>{"\n"}</Text>
 
                     <Button color="#d9534f" style={styles.BtnInscricao} title="Clique Aqui e faça a Pré-inscrição" onPress={() => {
-                        Linking.openURL('https://www.cbb2020.com.br/pre-inscricao-congresso-infantil/')
+                        Linking.openURL('https://www.cbb2020.com.br/form-pre-inscricao-congresso-infantil/')
                     }}
                     />
                     <Text>{"\n"}</Text>
@@ -109,7 +109,7 @@ const CongressoInfantil = () => {
                     />
                     <Text>{"\n"}</Text>
                     <Button color="#d9534f" style={styles.BtnInscricao} title="Clique Aqui e faça a Pré-inscrição" onPress={() => {
-                        Linking.openURL('https://www.cbb2020.com.br/pre-inscricao-congresso-infantil/')
+                        Linking.openURL('https://www.cbb2020.com.br/form-pre-inscricao-congresso-infantil/')
                     }}
                     />
                 </View>

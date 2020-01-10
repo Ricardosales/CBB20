@@ -1,6 +1,6 @@
 import { AppRegistry, YellowBox } from 'react-native';
 import { name as appName } from './app.json';
-import {AppNavigator} from './src/navigation/Navigator';
+import AppNavigator from './src/navigation/Navigator';
 
 YellowBox.ignoreWarnings(
     [

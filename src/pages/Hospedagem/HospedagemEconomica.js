@@ -12,7 +12,6 @@ const CardHosp = ({ local, distancia, Leito, latitude, longitude }) => (
             <View style={{ padding: 10 }} >
                 <Text style={styles.Texto}><Negrito texto='Local:' /> {local}</Text>
                 <Text style={styles.Texto}><Negrito texto='Distância do Centro de Convenções:' /> {distancia}</Text>
-                <Text style={styles.Texto}><Negrito texto='Nº de Leitos:' /> {Leito}</Text>
             </View>
         </View>
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -73,35 +72,35 @@ const HospedagemEconomica = () => {
             </View>
             <CardHosp
                 local='COLEGIO LICEU DE GOIANIA'
-                distancia='2km' Leito='80' latitude='-16.677023' longitude='-49.253993'
+                distancia='2km' latitude='-16.677023' longitude='-49.253993'
             />
             <CardHosp
                 local='IGREJA BATISTA VILA NOVA'
-                distancia='3,2km' Leito='80' latitude='-16.663297' longitude='-49.246117'
+                distancia='3,2km' latitude='-16.663297' longitude='-49.246117'
             />
             <CardHosp
                 local='IGREJA BATISTA REDENÇÃO'
-                distancia='8,7km' Leito='60' latitude='-16.719346' longitude='-49.242318'
+                distancia='8,7km' latitude='-16.719346' longitude='-49.242318'
             />
             <CardHosp
                 local='IGREJA BATISTA COIMBRA'
-                distancia='4,7km' Leito='70' latitude='-16.687489' longitude='-49.283608'
+                distancia='4,7km' latitude='-16.687489' longitude='-49.283608'
             />
             <CardHosp
                 local='IGREJA BATISTA SETOR UNIVERSITÁRIO'
-                distancia='3,6km' Leito='40' latitude='-16.675423' longitude='-49.236574'
+                distancia='3,6km' latitude='-16.675423' longitude='-49.236574'
             />
             <CardHosp
                 local='IGREJA BATISTA DA FAMA'
-                distancia='3,5km' Leito='35' latitude='-16.662145' longitude='-49.275840'
+                distancia='3,5km' latitude='-16.662145' longitude='-49.275840'
             />
             <CardHosp
                 local='SEMINÁRIO BATISTA TEOLÓGICO'
-                distancia='2,1km' Leito='55' latitude='-16.674042' longitude='-49.247727'
+                distancia='2,1km' latitude='-16.674042' longitude='-49.247727'
             />
             <CardHosp
                 local='IGREJA BATISTA ESMERALDA'
-                distancia='6,9km' Leito='60' latitude='-16.719423' longitude='-49.258702'
+                distancia='6,9km' latitude='-16.719423' longitude='-49.258702'
             />
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={styles.SubTitle}>Reservas com o Irmão JORGE ROQUE DOS SANTOS</Text>

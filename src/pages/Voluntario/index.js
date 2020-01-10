@@ -19,7 +19,7 @@ export default class Voluntario extends Component {
       <View style={styles.container}>
         <GeneralStatusBarColor backgroundColor='#155239' barStyle="light-content" />
         <WebView 
-          source={{ uri: 'https://docs.google.com/forms/d/e/1FAIpQLSeK5POwkNWO9PWAVKtRSOG7ngf72N-ubI4Ogws66TADPJw23Q/viewform' }} 
+          source={{ uri: 'https://docs.google.com/forms/d/e/1FAIpQLScp-yR9RPqN515tMmgG8SeMQOB_TMtT-hXKghXGlwlu2I_cnQ/viewform' }} 
           onLoad={() => this.hideSpinner()}
           style={{ flex: 1 }}
           onError={

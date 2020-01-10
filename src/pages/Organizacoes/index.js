@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, Image, ScrollView, Button, Linking } from 'react-native';
 import Screen from '../../shared/Screen';
 import GeneralStatusBarColor from '../../shared/GeneralStatusBarColor';
 
@@ -38,6 +38,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>Contato: </Text> Pr Daniel Ventura
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/congresso-da-opbb/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
                     <Image
@@ -62,6 +66,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>E-mail: </Text> mmandersoncosta@yahoo.com.br
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/congresso-dos-musicos-batistas-do-brasil/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
                     <Image
@@ -83,6 +91,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>Informações: </Text> Fabio De La Plata
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/assembleia-dos-diaconos-e-diaconisas-batistas/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
                     <Image
@@ -104,6 +116,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>Contato: </Text> AECBB
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/assembleia-anual-da-aecbb-2020/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
                     <Image
@@ -176,6 +192,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>E-mail: </Text> abibet.contato@gmail.com
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/assembleia-abibet-2020/')
+                    }}
+                    />
 
                     <Text>{"\n"}</Text>
 
@@ -243,6 +263,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>E-mail: </Text> executivo@aneb.com.br
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/associacao-nacional-de-escolas-batista/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
                     <Image
@@ -264,6 +288,10 @@ const Organizacoes = () => {
                     <Text style={styles.SubTema}>
                         <Text style={styles.Tema}>Outras Informações: </Text> www.cbb2020.com.br/congresso-infantil
                     </Text>
+                    <Button color="#d9534f" style={styles.BtnInscricao} title="Programação" onPress={() => {
+                        Linking.openURL('https://www.cbb2020.com.br/congresso-infantil/')
+                    }}
+                    />
                     <Text>{"\n"}</Text>
 
 
