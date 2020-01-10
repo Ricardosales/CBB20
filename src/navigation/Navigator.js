@@ -31,9 +31,6 @@ import Parque from '../pages/Lugares/Parques';
 import Shopping from '../pages/Lugares/Shoppings';
 import Voluntario from '../pages/Voluntario';
 import Turismo from '../pages/Turismo';
-import Goiania from '../pages/Turismo/Goiania';
-import Pirinopolis from '../pages/Turismo/Pirinopolis';
-import CaldasNovas from '../pages/Turismo/CaldasNovas';
 
 const ACTIVE_TAB_COLOR = '#155239'
 const INACTIVE_TAB_COLOR = '#aaa'
@@ -296,10 +293,7 @@ const AppDrawerNavigator = createDrawerNavigator({
   },
   Turismo: {
     screen: createStackNavigator({
-      TurismoScreen: { screen: Turismo },
-      GoianiaScreen: { screen: Goiania },
-      PirinopolisScreen: { screen: Pirinopolis },
-      CaldasNovasScreen: { screen: CaldasNovas }
+      TurismoScreen: { screen: Turismo }
     },
       {
         navigationOptions: ({ navigation }) => ({
