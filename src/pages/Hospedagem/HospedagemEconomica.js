@@ -71,37 +71,19 @@ const HospedagemEconomica = () => {
                 <Text style={styles.SubTitle}>Hospedagem Econômica para a CBB 2020</Text>
             </View>
             <CardHosp
-                local='COLEGIO LICEU DE GOIANIA'
-                distancia='2km' latitude='-16.677023' longitude='-49.253993'
+                local='COLÉGIO JOSÉ HONORATO'
+                distancia='2km' latitude='-16.667984' longitude='-49.264277'
             />
             <CardHosp
                 local='IGREJA BATISTA VILA NOVA'
                 distancia='3,2km' latitude='-16.663297' longitude='-49.246117'
             />
-            <CardHosp
-                local='IGREJA BATISTA REDENÇÃO'
-                distancia='8,7km' latitude='-16.719346' longitude='-49.242318'
-            />
-            <CardHosp
-                local='IGREJA BATISTA COIMBRA'
-                distancia='4,7km' latitude='-16.687489' longitude='-49.283608'
-            />
-            <CardHosp
-                local='IGREJA BATISTA SETOR UNIVERSITÁRIO'
-                distancia='3,6km' latitude='-16.675423' longitude='-49.236574'
-            />
-            <CardHosp
-                local='IGREJA BATISTA DA FAMA'
-                distancia='3,5km' latitude='-16.662145' longitude='-49.275840'
-            />
+            
             <CardHosp
                 local='SEMINÁRIO BATISTA TEOLÓGICO'
                 distancia='2,1km' latitude='-16.674042' longitude='-49.247727'
             />
-            <CardHosp
-                local='IGREJA BATISTA ESMERALDA'
-                distancia='6,9km' latitude='-16.719423' longitude='-49.258702'
-            />
+            
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                 <Text style={styles.SubTitle}>Reservas com o Irmão JORGE ROQUE DOS SANTOS</Text>
             </View>
