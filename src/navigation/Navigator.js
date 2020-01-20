@@ -31,6 +31,7 @@ import Parque from '../pages/Lugares/Parques';
 import Shopping from '../pages/Lugares/Shoppings';
 import Voluntario from '../pages/Voluntario';
 import Turismo from '../pages/Turismo';
+import News from '../pages/News';
 
 const ACTIVE_TAB_COLOR = '#155239'
 const INACTIVE_TAB_COLOR = '#aaa'
@@ -347,6 +348,32 @@ const AppDrawerNavigator = createDrawerNavigator({
       drawerLabel: 'Seja um Voluntário',
       drawerIcon: ({ tintColor }) => (
         <IconIonicons name='ios-hand' color={tintColor} size={24} />
+      ),
+
+    }
+  },
+  News: {
+    screen: createStackNavigator({
+      NewsScreen: { screen: News }
+    },
+      {
+        navigationOptions: ({ navigation }) => ({
+          tabBarVisible: true,
+          headerLeft: (
+            <IconIonicons
+              style={{ paddingLeft: 10 }}
+              onPress={() => navigation.openDrawer()}
+              name="md-menu" color='white' size={30}
+            />
+          ),
+          headerTitle: 'Restaurantes',
+          ...headerStyles
+        })
+      }),
+    navigationOptions: {
+      drawerLabel: 'Restaurantes',
+      drawerIcon: ({ tintColor }) => (
+        <IconIonicons name='ios-restaurant' color={tintColor} size={24} />
       ),
 
     }
